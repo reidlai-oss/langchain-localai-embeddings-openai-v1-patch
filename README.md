@@ -71,10 +71,10 @@ document_embeddings = embeddings.embed_documents(documents)
 print(f"Number of document embeddings: {len(document_embeddings)}")
 print(f"First document embedding length: {len(document_embeddings[0])}")
 ```
-🤝 Contributing
+## Contributing
 Contributions are welcome! If you find issues or have improvements, please feel free to open a pull request or an issue on this repository.
 
-📄 License
+##  License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Disclaimer: This is a community-maintained patch. While it aims to resolve specific compatibility issues, always test thoroughly in your environment.
