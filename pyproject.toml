@@ -3,14 +3,14 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "langchain-localai-patch" # This is the package name users will install
+name = "langchain-localai-embeddings-openai-v1-patch" # This is the package name users will install
 version = "0.1.0" # Start with 0.1.0 and increment for new releases
 description = "A patch for langchain-community's LocalAIEmbeddings to support openai>=1.0.0"
 readme = "README.md"
 requires-python = ">=3.9" # Adjust based on your Python version
 license = { text = "MIT" } # Or "Apache-2.0" or other license
 authors = [
-    { name = "Your Name", email = "your.email@example.com" }
+    { name = "Reid Lai", email = "reidlai.ca@gmail.com" }
 ]
 keywords = ["langchain", "localai", "embeddings", "openai", "patch"]
 classifiers = [
@@ -29,10 +29,10 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/your-github-username/your-new-repo-name"
-"Bug Tracker" = "https://github.com/your-github-username/your-new-repo-name/issues"
-"Source" = "https://github.com/your-github-username/your-new-repo-name"
+"Homepage" = "https://github.com/reidlai-oss/langchain-localai-embeddings-openai-v1-patch"
+"Bug Tracker" = "https://github.com/reidlai-oss/langchain-localai-embeddings-openai-v1-patch/issues"
+"Source" = "https://github.com/reidlai-oss/langchain-localai-embeddings-openai-v1-patch"
 
 [tool.setuptools.packages.find]
 where = ["."] # Look for packages in the current directory
-include = ["langchain_localai_patch*"] # Only include your specific package
+include = ["langchain_localai_embeddings_openai_v1_patch*"]
