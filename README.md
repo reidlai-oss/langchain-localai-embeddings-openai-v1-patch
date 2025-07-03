@@ -1,4 +1,4 @@
-# langchain-localai-openai-v1-patch
+# langchain-localai-embeddings-openai-v1-patch
 A patch for langchain-community's LocalAIEmbeddings to support openai>=1.0.0 and resolve compatibility issues.
 
 ## Overview
@@ -16,7 +16,7 @@ LocalAIEmbeddings uses the openai client internally due to LocalAI's OpenAI-comp
 You can install this package directly from GitHub using pip:
 
 ```bash
-pip install git+https://github.com/reidlai-oss/langchain-localai-patch.git
+pip install git+https://github.com/reidlai-oss/langchain-localai-embeddings-openai-v1-patch.git
 ```
 
 Prerequisites
@@ -38,7 +38,7 @@ After installing the langchain-localai-patch package, you can import and use the
 # In your Python code (e.g., your main application script)
 
 # Import the patched LocalAIEmbeddings
-from langchain_localai_patch.localai import LocalAIEmbeddings
+from langchain_localai_embeddings_openai_v1_patch.localai import LocalAIEmbeddings
 # Or, if you added it to __init__.py:
 # from langchain_localai_patch import LocalAIEmbeddings
 
